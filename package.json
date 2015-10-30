@@ -40,7 +40,7 @@
   "scripts": {
     "test": "grunt test --stack"
   },
-  "main": "./lib/cli",
+  "main": "./dist/modernizr",
   "bin": "./bin/modernizr",
   "repository": {
     "type": "git",

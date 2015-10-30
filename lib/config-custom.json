@@ -1,9 +1,9 @@
 {
-  "minify": true,
   "options": [
     "setClasses"
   ],
   "feature-detects": [
+    "test/requestanimationframe",
     "test/webgl",
     "test/svg/clippaths"
   ]
