@@ -5,7 +5,7 @@
   "feature-detects": [
     "test/requestanimationframe",
     "test/webgl",
-    "test/svg/clippaths"
+    "test/svg/clippaths",
     "test/svg/smil"
   ]
 }
