@@ -38,9 +38,10 @@
     "proxyquire": "1.7.3"
   },
   "scripts": {
-    "test": "grunt test --stack"
+    "test": "grunt test --stack",
+    "postinstall": "./bin/modernizr -c lib/config-custom.json -d build/modernizr.js"
   },
-  "main": "./dist/modernizr",
+  "main": "./build/modernizr",
   "bin": "./bin/modernizr",
   "repository": {
     "type": "git",
